@@ -27,5 +27,5 @@
 # Developer browser tools
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
 
-<br> <br> <br>
-Source: https://www.youtube.com/watch?v=UB1O30fR-EE
+# Sources
+* https://www.youtube.com/watch?v=UB1O30fR-EE
