@@ -2,4 +2,4 @@
 
 
 # Box Model
-![Alt text](images/boxmodel.jpg?raw=true | width="350")
+<img src="images/boxmodel.jpg" width="48">
