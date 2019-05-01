@@ -69,7 +69,7 @@ img {
 
 #mySideBar {
     float: right;
-    width: 300px;
+    width: 30%;
     background: #333;
     color: #fff;
     padding: 10px;
@@ -82,4 +82,17 @@ img {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+/* RESPONSIVE LAYOUT */
+/* This is only active if the condition is true */
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #mySideBar{
+        width: 100%;
+        float: none;
+    }
 }
