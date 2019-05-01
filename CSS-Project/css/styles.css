@@ -1,0 +1,32 @@
+
+body{
+    background-color: #e7e5e5;
+    color: #777777;
+    font-family: 'Courier New';
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+h3{
+    color: green;
+}
+
+h4{
+    color: rgb(0, 255, 0)
+}
+
+
+/* The dot notation is used to target a class */
+.myBox{
+    background-color: #db9328;
+}
+
+.myContainer{
+    width: 200px;
+    background-color: aqua;
+}
+
+.myContainer2{
+    width: 50%;
+    background-color: brown;
+}
