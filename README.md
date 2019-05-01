@@ -5,8 +5,8 @@
 *	HTML is the building block of the web. 
 
 # TAG
-* A tag is created using <tagname>. 
-  Tags usually comes in pair: a starting tag <> and en ending tag \</tagname\>.  
+* A tag is created using \<tagname\>. 
+  Tags usually comes in pair: a starting tag \<\> and en ending tag \</tagname\>.  
   Self closing tags are single tags that have the slash “/” after the tagname, example \<tagname/\>. 
 
 # HTML struture
