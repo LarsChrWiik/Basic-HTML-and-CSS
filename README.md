@@ -10,7 +10,7 @@
   Self closing tags are single tags that have the slash “/” after the tagname, example \<tagname/\>. 
 
 # HTML struture
-´´´
+'''
 <!DOCKTYPE html> #This tells the webpage what type of html to run. (html means HTML5). 
 
 <html>
@@ -22,7 +22,7 @@
 </body>
 
 </html>
-´´´
+'''
 
 # Developer browser tools
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
