@@ -28,4 +28,4 @@
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
 
 # HTML Tag architecture
-<img src="images/HTML_tag_info.jpg" width="400">
+<img src="images/HTML_tag_info.jpg" width="275">
