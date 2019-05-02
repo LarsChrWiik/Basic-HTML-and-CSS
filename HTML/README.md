@@ -27,5 +27,5 @@
 # Developer browser tools
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
 
-# Sources
-* https://www.youtube.com/watch?v=UB1O30fR-EE
+# HTML Tag architecture
+<img src="images/HTML_tag_info.jpg" width="400">
