@@ -1,6 +1,7 @@
 # CSS
 * CSS = Cascading Stylesheet.
 * CSS is not a programming language, but a styling language that are used for website design and layout.
+* CSS3 is mostly used, which is an extention to the basic CSS. 
 
 # CSS objects
 * Styling for global objects using the name of the object.
