@@ -1,0 +1,1 @@
+The main difference between CSS and CSS3 is that CSS3 has modules.CSS is the basic version and it does not support responsive design.
