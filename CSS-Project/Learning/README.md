@@ -2,6 +2,38 @@
 * CSS = Cascading Stylesheet. 
 * CSS is not a programming language, but a styling language that are used for website design and layout. 
 
+# CSS objects
+* Styling for global objects using the name of the object. 
+```
+body {
+    background-color: rgb(240, 240, 240);
+    color: #555;
+    font-family: Calibri;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+}
+```
+* Styling for classes are using "." notation. 
+```
+.myContainers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+```
+* Styling for id's are using "#" notation.
+```
+#myContainer1 {
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+```
+
 # There are 3 methods of adding CSS: 
 * **Inline CSS**: Within the HTML code. (Bad practice). 
 * **Internal CSS**: Using <style> tags within the HTML code. (Kind of bad practice). 
