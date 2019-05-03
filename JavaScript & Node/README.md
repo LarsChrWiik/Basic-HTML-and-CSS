@@ -339,7 +339,10 @@ const { firstName, lastName } = person
 # Array 
 An Array in JavaScript is an **Object** with numberic keys that correspond to a value. 
 However, an Array has extended functionallity, compared to an Object, with functions such as Push, Splice, and Length. 
-There are two main ways of initializing an Array (with "new" or with bracket notation):
+
+<br>
+
+There are two main ways of initializing an Array: 
 ```
 const numbers = new Array(5,3,"Hello",2)
 ```
@@ -396,7 +399,6 @@ The function requires three arguments:
 * value
 * index
 * array
-
 ```
 function myFunction(value, index, array) {
   return value > 18
@@ -407,7 +409,6 @@ let myValue = myNumbers.<strong>find</strong>(myFunction) // myValue is 26 // TO
 ```
 
 The **findIndex** is exactly the same as the **find** function, but findIndex returns the index instead of the element:
-
 ```
 function myFunction(value, index, array) {
   return value > 18
