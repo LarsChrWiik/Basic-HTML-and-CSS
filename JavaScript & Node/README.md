@@ -396,6 +396,7 @@ The function requires three arguments:
 * value
 * index
 * array
+
 ```
 function myFunction(value, index, array) {
   return value > 18
@@ -404,8 +405,9 @@ function myFunction(value, index, array) {
 let myNumbers = [2, 10, 15, 26, 42]
 let myValue = myNumbers.<strong>find</strong>(myFunction) // myValue is 26 // TODO strong?
 ```
-<br>
+
 The **findIndex** is exactly the same as the **find** function, but findIndex returns the index instead of the element:
+
 ```
 function myFunction(value, index, array) {
   return value > 18
