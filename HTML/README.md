@@ -42,26 +42,26 @@ Most tags are *Block* or *Inline*:
 |------|--------|
 | \<TITLE\> \</TITLE\> | Title of document |
 | \<A\> \</A\> | Anchor |
-| <IMG> | Image |
-| <BR> | Force line break within paragraph |
-| <CENTER> </CENTER> | Content is centred on page |
-| <P> </P> | Paragraph |
-| <B> </B> | Bold |
-| <I> </I> | Italics |
-| <U> </U> | Underline text |
-| <S> </S> | Strike-through text |
-| <EM> </EM> | Emphasis |
-| <DIV> </DIV> | Container (block-level) |
-| <SPAN> </SPAN> | Container (in-line) |
-| <H1> </H1>  | Heading Largest |
-| <H2> </H2> | Heading Second Largest |
+| \<IMG\> | Image |
+| \<BR\> | Force line break within paragraph |
+| \<CENTER\> </CENTER> | Content is centred on page |
+| \<P\> \</P\> | Paragraph |
+| \<HR\> | Draw horizontal line across page |
+| \<B\> \</B\> | Bold |
+| \<I\> \</I\> | Italics |
+| \<U\> \</U\> | Underline text |
+| \<S\> \</S\> | Strike-through text |
+| \<EM\> \</EM\> | Emphasis |
+| \<DIV\> \</DIV\> | Container (block-level) |
+| \<SPAN\> \</SPAN\> | Container (in-line) |
+| \<H1\> \</H1\>  | Heading Largest |
+| \<H2\> \</H2\> | Heading Second Largest |
 | ... | ... |
-| <H6> </H6> | Headings |
-| <HR> | Draw horizontal line across page |
-| <LI> </LI> | List item |
-| <OL> </OL> | Ordered list |
-| <UL> </UL> | Unordered List |
-| <TABLE> </TABLE> | Table |
-| <TH> </TH> | Table header cell |
-| <TR> </TR> | Table row |
-| <TD> </TD> | Table data cell |
+| \<H6\> \</H6\> | Headings |
+| \<LI\> \</LI\> | List item |
+| \<OL\> \</OL\> | Ordered list |
+| \<UL\> \</UL\> | Unordered List |
+| \<TABLE\> \</TABLE\> | Table |
+| \<TH\> \</TH\> | Table header cell |
+| \<TR\> \</TR\> | Table row |
+| \<TD\> \</TD\> | Table data cell |
