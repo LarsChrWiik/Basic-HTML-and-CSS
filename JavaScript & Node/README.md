@@ -1,6 +1,7 @@
 
 # JavaScript Basic Syntax and Info
-* JavaScript is a highlevel interpreted dynamically typed programming language to make web pages interactive. 
+* JavaScript is a programming language to make web pages interactive. 
+* JavaScript is highlevel, interpreted, and dynamically typed: 
     * Highlevel = a lot of abstraction. 
     * Interpreted = it can be run without a compiler. 
     * Dynamically typed = does type checking at run-time as opposed to compile-time (statically typed).
