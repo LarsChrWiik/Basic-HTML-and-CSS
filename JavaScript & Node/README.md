@@ -116,7 +116,7 @@ let y = undefined
 
 We can use **typeof** to get the type: 
 ```
-console.log(typeof age)
+console.log(typeof(age))
 ```
 
 
