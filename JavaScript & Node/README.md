@@ -14,7 +14,7 @@
 
 
 
-# Connecting HTML and JavaScript
+# Using JavaScript with HTML
 * There are two main ways to use JavaScript with HTML. 
     * Put JavaScript code in a seperate ".js" file (Recomended).
       * This is done within the \<header> section.  
