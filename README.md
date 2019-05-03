@@ -1,3 +1,3 @@
 
-# Basic-HTML-and-CSS
-Basic HTML and CSS examples
+# Frontend Web Dev
+Frontend Web Dev examples
