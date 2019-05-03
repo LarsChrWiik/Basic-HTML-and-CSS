@@ -15,11 +15,9 @@
 
 
 # Using JavaScript with HTML
-* There are two main ways to use JavaScript with HTML. 
-    * Put JavaScript code in a seperate ".js" file (Recomended).
-      * This is done within the \<header> section.  
-    * Put javaScript inside the HTML code using \<script>.     
-      * This is done within the \<body> section. 
+* There are two main ways to use JavaScript with HTML: 
+    1. Put JavaScript code in a seperate ".js" file (**Recomended**).  
+    2. Put javaScript inside the HTML code using \<script>. 
 
 Example using "<Script>":
 ```
