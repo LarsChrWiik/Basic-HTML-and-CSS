@@ -7,8 +7,8 @@
 * JavaScript conforms to ECMAScript. 
 * JavaScript is a scripting language and lightweight. 
 * JavaScript can be run:
-    * On the client/browser (Frontend). 
-    * A server using Node.js (Backend).
+    * On the client/browser (**Frontend**). 
+    * A server using Node.js (**Backend**).
     * For mobile developmenet with React Native. 
     * For desktop applications with Electron JS. 
 
