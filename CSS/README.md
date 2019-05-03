@@ -38,7 +38,11 @@ body {
 # There are 3 methods of adding CSS:
 * **Inline CSS**: Within the HTML code. (Bad practice). 
 * **Internal CSS**: Using <style> tags within the HTML code. (Kind of bad practice).
-* **Ex ternal CSS**: Linking to an external CSS file. (Best practice).
+* **Ex ternal CSS**: Linking to an external CSS file (Within the header). (Best practice).
+```
+<link rel="stylesheet" href="style.css" />
+```
+
 
 # Most used Units:
 * px = pixel
