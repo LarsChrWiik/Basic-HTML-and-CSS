@@ -268,7 +268,7 @@ function ifExists(key, array) {
 }
 ```
 
-# Function Argument Destructuring
+### Function Argument Destructuring
 We can specify what elements to use from the input Object. 
 Argument Destructuring is often used with JSON calls / API calls.
 ```
