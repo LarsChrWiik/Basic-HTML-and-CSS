@@ -367,15 +367,12 @@ let myNum2 = numbers.shift()
 numbers.unshift(150)
 ```
 
-### Array Mutation & Object.freeze
+### Array Mutation and Object.freeze
 Arrays that are declated as "**const**" can still be mutated using bracket notation. 
 ```
 const myArray = [1,2,3]
 myArray[1] = 10
 ```
-
-<br>
-
 Object.freeze can be used to freeze the state of an object in JavaScript.
 Object.freeze works on object values by making the object immutable, i.e. you cannot change its properties. 
 ```
