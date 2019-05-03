@@ -373,7 +373,7 @@ Arrays that are declated as "**const**" can still be mutated using bracket notat
 const myArray = [1,2,3]
 myArray[1] = 10
 ```
-Object.freeze can be used to freeze the state of an object in JavaScript.
+**Object.freeze** can be used to freeze the state of an object in JavaScript.
 Object.freeze works on object values by making the object immutable, i.e. you cannot change its properties. 
 ```
 const myArray = [1,2,3]
