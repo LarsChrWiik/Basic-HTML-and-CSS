@@ -445,7 +445,7 @@ let bob = new Person("Bob", 50)
 
 ### Create Class (Constructor Patterns) (approach 2)
 ```
-function Employee(name, age){
+function Person(name, age){
   this.name = name
   this.age = age
 }
