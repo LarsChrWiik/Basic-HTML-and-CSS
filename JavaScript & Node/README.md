@@ -222,7 +222,7 @@ addTen(5) // Returns 15
 
 ### Function Expression (approach 2)
 ```
-let addTen = function() {
+let addTen = function(x) {
   return x + 10
 }
 
@@ -231,15 +231,14 @@ addTen(5) // Returns 15
 
 ### Arrow function (approach 3)
 ```
-let addTen = () => {
+let addTen = (x) => {
   return x + 10
 }
 
 addTen(5) // Returns 15
 ```
 
-### Function (approach 4)
-This approach is used for 
+### Short Arrow Function (approach 4)
 ```
 let addTen = (x) => x + 10
 
