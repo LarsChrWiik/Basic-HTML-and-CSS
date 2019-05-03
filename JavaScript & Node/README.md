@@ -350,7 +350,7 @@ const numbers = new Array(5,3,"Hello",2)
 const numbers2 = [5,3,"Hello",2]
 ```
 
-### Adding & Removing elements in Arrays
+### Add / Remove elements in an Array
 | Command  | Description |
 |------|--------|
 | push | add to end |
