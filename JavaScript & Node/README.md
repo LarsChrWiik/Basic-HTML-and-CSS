@@ -77,10 +77,10 @@ We have three variable types in JavaScript:
 
 # Use Strict
 We can force JavaScript to throw exceptions by adding **"use strct"** on top of the script. 
-It can also be added on top of a function to make just that function comply to the strict mode. 
 ```
 "use strict"
 ```
+It can also be added on top of a function to make just that function comply to the strict mode. 
 ```
 function myFunction() {
   "use strict"
