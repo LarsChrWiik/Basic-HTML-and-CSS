@@ -3,7 +3,7 @@
 * JavaScript is a highlevel interpreted programming language to make web pages interactive. 
     * Highlevel = a lot of abstraction. 
     * Interpreted = it can be run without a compiler. 
-* JavaScript is dynamically typed (not static), which means we dont have to spesify data types. 
+* JavaScript is dynamically typed (not static), which means we dont have to specify data types. 
 * JavaScript conforms to ECMAScript. 
 * JavaScript is a scripting language and lightweight. 
 * JavaScript can be run:
