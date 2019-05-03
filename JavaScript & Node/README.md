@@ -325,9 +325,11 @@ person['email2'] = "BobSmith@mail.com"
 
 ### Object Destructuring
 Instead of getting values from objects one by one:
-* const fName = person.firstName
-* const lName = person.lastName
-We can use destructing assignment: 
+```
+const fName = person.firstName
+const lName = person.lastName
+```
+We can use **destructuring assignment**: 
 ```
 const { firstName, lastName } = person
 ```
