@@ -57,7 +57,7 @@ console.log(`my name is ${name} and I am ${age} years old`) // Must be ` nor " o
 
 
 # What is ES6?
-* ES6 is also known as "ECMAScript 6", "ECMAScript 2015", and "JavaScript 6".
+* ES6 is also known as "**ECMAScript 6**", "**ECMAScript 2015**", and "**JavaScript 6**".
 * ES6 gave a lot of new functionality such as:
   * let and const
   * Exponentiation (pow) operator (\*\*)
