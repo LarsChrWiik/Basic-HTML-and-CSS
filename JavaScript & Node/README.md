@@ -404,7 +404,7 @@ function myFunction(value, index, array) {
 }
 
 let myNumbers = [2, 10, 15, 26, 42]
-let myValue = myNumbers.<strong>find</strong>(myFunction) // myValue is 26 // TODO strong?
+let myValue = myNumbers.find(myFunction) // myValue is 26
 ```
 
 The **findIndex** is exactly the same as the **find** function, but findIndex returns the index instead of the element:
@@ -414,7 +414,7 @@ function myFunction(value, index, array) {
 }
 
 let myNumbers = [2, 10, 15, 26, 42]
-let myIndex = myNumbers.<strong>findIndex</strong>(myFunction) // myIndex is 3
+let myIndex = myNumbers.findIndex(myFunction) // myIndex is 3
 ```
 
 
