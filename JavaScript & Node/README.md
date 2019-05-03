@@ -268,9 +268,9 @@ function ifExists(key, array) {
 }
 ```
 
-# Destructural syntax as input parameters in Function
+# Function Argument Destructuring
 We can specify what elements to use from the input Object. 
-This is normally used with JSON calls / API calls.
+Argument Destructuring is often used with JSON calls / API calls.
 ```
 function myFunction5({ firstName, lastName, age}) {
   ...code...
