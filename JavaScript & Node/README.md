@@ -1,5 +1,5 @@
 
-# JavaScript Basic Syntax and Info
+# JavaScript Syntax
 * JavaScript is a programming language to make web pages interactive. 
 * JavaScript is highlevel, interpreted, and dynamically typed: 
     * Highlevel = a lot of abstraction. 
