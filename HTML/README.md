@@ -27,9 +27,9 @@
 # The default display value 
 Most tags are *Block* or *Inline*:
 * **Block-level**: Block level elements always start on a new line and takes up the full width available
-  * Example: <div>
+  * Example: \<div\>
 * **Inline**: Inline elements only takes up as much width as necessary and do not start on a new line. 
-  * Example: <span>
+  * Example: \<span\>
 
 # Developer Browser Tools
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
