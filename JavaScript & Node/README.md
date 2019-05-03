@@ -105,7 +105,7 @@ const pi = 3.141592
 ```
 isNice = true
 ```
-* **null** / **undefined**: null and undefined are both are used to represent the absence of some value. 
+* **null** / **undefined**: null and undefined are both used to represent the absence of some value. 
 ```
 let x = null
 let y = undefined
