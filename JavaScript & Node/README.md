@@ -187,7 +187,7 @@ if (age1 == 18 && age2 != 18 || age3 == 20) {
 Oneline if-else sentence. 
 ```
 let age = 17
-let myCondition = age >= 18 ? "Underage" : "Legal"
+let myCondition = age >= 18 ? "You are of legal age" : "You are underage"
 ```
 
 
