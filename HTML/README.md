@@ -57,7 +57,7 @@ Most tags are *Block* or *Inline*:
 | \<H1\> \</H1\>  | Heading Largest |
 | \<H2\> \</H2\> | Heading Second Largest |
 | ... | ... |
-| \<H6\> \</H6\> | Headings |
+| \<H6\> \</H6\> | Heading Smallest |
 | \<LI\> \</LI\> | List item |
 | \<OL\> \</OL\> | Ordered list |
 | \<UL\> \</UL\> | Unordered List |
