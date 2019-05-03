@@ -300,13 +300,15 @@ let person = {
 ```
 
 ### Create Reusable Object
+```
 let Person = function(name, age) {
   this.name = name
   this.age = age
 }
 let bob = new Person("Bob", 50)
+```
 
-### Create Object without spesifying keys
+### Create Object without spesifying Keys
 ```
 const age = 25
 const name = "Bob"
