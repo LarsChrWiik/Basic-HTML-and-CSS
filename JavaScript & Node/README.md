@@ -22,24 +22,24 @@
 Example using "<Script>":
 ```
 <body>
-<script>
+  <script>
     let x = 10
     console.log(x)
-</script>
+  </script>
 </body>
 ```
 
 Example of refering to an external ".js" file. 
 ```
 <header>
-<script src="main.js"><script>
+  <script src="main.js"><script>
 </header>
 ```
 
 
 
 # Printing to browser Console
-We can print to the browser developer tool with the console.log, console.error, console.warning command. 
+We can print to the browser developer tool with the **console.log**, **console.error**, **console.warning** command. 
 ```
 console.log("Hello World")
 console.error("This is an error")
