@@ -56,14 +56,6 @@ console.log(`my name is ${name} and I am ${age} years old`) // Must be ` nor " o
 
 
 
-# Variables
-We have three varaible types in JavaScript:
-* **var** (old): var is globally scoped, its old and we should try to avoid using it. 
-* **let** (Added with ES6): let defines a variable that can be reassigned later. 
-* **const** (Added with ES6): const defines a constant. This should allways be used unless we want to reassign the value. 
-
-
-
 # What is ES6?
 * ES6 is also known as "ECMAScript 6", "ECMAScript 2015", and "JavaScript 6".
 * ES6 gave a lot of new functionality such as:
@@ -72,6 +64,15 @@ We have three varaible types in JavaScript:
   * Default parameter values
   * Array.find()
   * Array.findIndex()
+
+
+
+# Variables
+We have three variable types in JavaScript:
+* **var** (old): var is globally scoped, its old and we should avoid using it. 
+* **let** (Added with ES6): let defines a variable that can be reassigned later. 
+* **const** (Added with ES6): const defines a constant. This should allways be used unless we want to reassign the value. 
+
 
 
 # Use Strict
