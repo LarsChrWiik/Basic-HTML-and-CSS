@@ -419,8 +419,9 @@ let myIndex = myNumbers.findIndex(myFunction) // myIndex is 3
 
 
 
-# spread operator = ...
-Takes an array and spread array
+# Spread operator
+The spread operation "..." is used to convert an array of elements into several individual elements. An example is that it converts ([1,2,3]) to (1,2,3). 
+This has several use cases such as copying arrays, concatinating arrays, destructuring, and spreading the elements in an array to use them as function parameters instead of the array itself. 
 ```
 const myArray = [1,2,3]
 const myArrayCopy = [...myArray] // This will copy myArray.
@@ -430,7 +431,7 @@ const myArrayCopy = [...myArray] // This will copy myArray.
 
 # Classes
 
-### Create class (approach 1)
+### Create Class (approach 1)
 ```
 class Person {
   constructor(name, age) {
@@ -442,7 +443,7 @@ class Person {
 let bob = new Person("Bob", 50)
 ```
 
-# Create class (Constructor Patterns) (approach 2)
+# Create Class (Constructor Patterns) (approach 2)
 ```
 function Employee(name, age){
   this.name = name
