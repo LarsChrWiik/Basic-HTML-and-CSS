@@ -40,8 +40,8 @@ Most tags are *Block* or *Inline*:
 # Most used Tags
 | Tag  | Description  |
 |------|--------|
-| <TITLE> </TITLE> | Title of document |
-| <A> </A> | Anchor |
+| \<TITLE\> \</TITLE\> | Title of document |
+| \<A\> \</A\> | Anchor |
 | <IMG> | Image |
 | <BR> | Force line break within paragraph |
 | <CENTER> </CENTER> | Content is centred on page |
