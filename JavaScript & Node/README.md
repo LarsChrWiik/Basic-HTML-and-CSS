@@ -336,10 +336,9 @@ const { firstName, lastName } = person
 
 
 
-# Arrays 
-Arrays in JavaScript are **Object** with numberic keys that correspond to a value. 
-Arrays have all the functionality of an Object in addition to extended functionallity such as Push, Splice, and Length. 
-<br>
+# Array 
+An Array in JavaScript is an **Object** with numberic keys that correspond to a value. 
+However, an Array has extended functionallity, compared to an Object, with functions such as Push, Splice, and Length. 
 There are two main ways of initializing an Array (with "new" or with bracket notation):
 ```
 const numbers = new Array(5,3,"Hello",2)
