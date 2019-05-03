@@ -39,7 +39,7 @@ Most tags are *Block* or *Inline*:
 
 # Tag attributes
 We can have attributes in a tag. Attributes are key-value pairs. One eksample of an attribute is "href":
-* \<a href="http://google.com"\>
+* \<a href="http://google.com">
 
 # Most used Tags
 | Tag  | Description  |
