@@ -463,7 +463,47 @@ let bob = new Person("Bob", 50)
 
 
 
-# JSON
+
+
+
+
+
+
+
+
+# JSON and JSON.stringify
+JSON is a data format that are used alot in fullstack development. 
+The format is very similar to an Object Literal, but all keys have double quotes.  
+```
+{
+  {
+    "id": 1,
+    "firstName": "bob"
+  },
+  {
+    "id": 2,
+    "firstName": "John"
+  }
+}
+```
+An Object can be converted to a JSON object with the JSON.stringify() function:
+```
+const myObjects = [
+  {
+    id: 1,
+    firstName: "bob"
+  },
+  {
+    id: 2,
+    firstName: "John"
+  }
+]
+
+const myObjectsJSON = JSON.stringify(myObjects)
+// myObjectsJSON = [{"id":1,"firstName":"bob"},{"id":2,"firstName":"John"}]
+```
+
+
 Convert object to JSON. 
 ```
 const myJSON = JSON.stringify(person)
