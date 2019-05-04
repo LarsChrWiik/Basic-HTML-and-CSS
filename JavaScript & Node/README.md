@@ -133,6 +133,22 @@ for (let i = 0; i < 10; i++){
 ```
 
 ### Foreach Loop (approach 1)
+**v** is the value in myArray. 
+```
+for (let v of myArray) {
+  console.log(v)
+}
+```
+
+### Foreach Loop (approach 2)
+**i** is the index in myArray. The value can be accessed with myArray[key]. 
+```
+for (let i in myObject) {
+  ...code... 
+}
+```
+
+### Foreach Loop (approach 3)
 This approach is similar to enumerate in Pyhton. 
 ```
 for (let [key, value] of myObject.entries()) {
@@ -140,16 +156,7 @@ for (let [key, value] of myObject.entries()) {
 }
 ```
 
-### Foreach Loop (approach 2)
-"key" is the index in myArray. The value can be accessed with myArray[key]. 
-In other words, this for-each loop loops over the keys, not the values. 
-```
-for (let key in myObject) {
-  ...code... 
-}
-```
-
-### Foreach Loop (approach 3)
+### Foreach Loop (approach 4)
 ```
 myObject.forEach(function(x){
     ...code...
@@ -611,6 +618,51 @@ let myString3 = 'my quote is "I love quotes".'
 ["duck", "cat", "goat"].filter(x => x.length > 3); 
 // Returns ["duck", "goat"] since these elements have a length more than 3. 
 ```
+
+### Map
+Apply function on each element within an object. 
+```
+const myArray = [3,4,5]
+const newArray = myArray.map(function(x){
+  return x**2
+}) // [9, 16, 25]
+```
+We can also use map with the arrow notaiton: 
+```
+const myArray = [3,4,5]
+const newArray = myArray.map(x => x**2) // [9, 16, 25]
+```
+
+### Filter
+Filter object based on condition. 
+```
+const myArray = [3,4,5]
+const newArray = myArray.filter(function(x){
+  return x**2 > 10
+})
+```
+We can also use filter with the arrow notation: 
+```
+const myArray = [3,4,5]
+const newArray = myArray.filter(x => x**2 > 10)
+```
+
+### Reduce
+Reduce will reduce the object into a single value. **acc** is the accumulator, while **x** is the value within the input object. 
+```
+const myArray = [3,4,5]
+const accStart = 0
+const myReducedValue = myArray.reduce(function (acc, x) {
+  return acc + x
+}, accStart) // Reduced to 12
+```
+We can also use Reduce with the arrow notation: 
+```
+const myArray = [3,4,5]
+const accStart = 0
+const myReducedValue = myArray.reduce((acc, x) => acc + x, accStart)
+```
+
 
 
 
