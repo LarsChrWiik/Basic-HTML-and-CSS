@@ -438,6 +438,9 @@ class Person {
     this.name = name
     this.age = age
   }
+  myFunction() {
+    ...code...
+  }
 }
 
 let bob = new Person("Bob", 50)
@@ -448,26 +451,14 @@ let bob = new Person("Bob", 50)
 function Person(name, age){
   this.name = name
   this.age = age
+  
+  this.myFunction = function() {
+    ...code...
+  }
 }
 
 let bob = new Person("Bob", 50)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -504,10 +495,36 @@ const myObjectsJSON = JSON.stringify(myObjects)
 ```
 
 
-Convert object to JSON. 
+
+# Events 
+JavaScript events can be triggered from HTML code.
+There are several event type dependent on the object that is used, for example a button:
 ```
-const myJSON = JSON.stringify(person)
+<button onClick="myFunction()">Click this button</button>
+
+<script>
+function myFunction(){
+  ...code...
+}
+</script>
 ```
+We can also access the object by sending "this" as the input parameter: 
+```
+<button onClick="myFunction(this)">Click this button</button>
+
+<script>
+function myFunction(x){
+  console.log(x.value)
+}
+</script>
+```
+
+
+# Form Validation
+
+
+
+
 
 
 
@@ -549,11 +566,11 @@ let myString3 = 'my quote is "I love quotes".'
 
 
 
-# Events 
 
 
 
-# Form Validation
+
+
 
 
 
