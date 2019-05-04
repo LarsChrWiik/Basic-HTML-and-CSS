@@ -183,7 +183,7 @@ do {
 
 
 
-# If Statement
+# If Statement / Conditionals
 ```
 if (age1 == 18 && age2 != 18 || age3 == 20) {
     ...code...
@@ -198,6 +198,10 @@ Oneline if-else sentence.
 let age = 17
 let myCondition = age >= 18 ? "You are of legal age" : "You are underage"
 ```
+
+### == vs ===
+Double equalsign (==) is used to compare values and disregard datatype. 
+Tripple equalsign is used when we want to compare datatypes as well. 
 
 
 
@@ -525,6 +529,8 @@ let myInt = parseInt(myString)
 let myString2 = "my quote is \"I love quotes\"."
 let myString3 = 'my quote is "I love quotes".'
 ```
+
+
 
 
 
