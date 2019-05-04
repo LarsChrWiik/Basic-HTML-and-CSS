@@ -614,10 +614,6 @@ let myString3 = 'my quote is "I love quotes".'
 
 
 # Map, Filter, Reduce
-```
-["duck", "cat", "goat"].filter(x => x.length > 3); 
-// Returns ["duck", "goat"] since these elements have a length more than 3. 
-```
 
 ### Map
 Apply function on each element within an object. 
