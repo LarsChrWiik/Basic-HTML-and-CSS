@@ -290,9 +290,62 @@ function myFunction5({ firstName, lastName, age}) {
 
 
 
-# Object 
+# Object / Classes
+Classes, Arrays, and Functions are all objects. 
+Essentially, everything in JavaSCript is an object except for the primitive data types. 
+JavaScript is a prototypal object oriented language, meaning that objects directly inherit from other objects. 
 
-### Create Object
+<br>
+
+Functions within objects that uses the **class** keyword are automatically put in the **prototype**. 
+This ensures that all instances of the object-type shares the same instance of the function-object. 
+This is more efficient, compared to having the function within the object itself (like the constructor pattern), since it is then replicated for all instances of the object. 
+
+### Class Pattern Object
+When using the class pattern object, all future instances of the object **will share the same instaces of the internal functions** since it is stored within the **prototype**. 
+```
+class Person {
+  constructor(name, age) {
+    this.name = name
+    this.age = age
+  }
+  myFunction() {
+    ...code...
+  }
+}
+
+let bob = new Person("Bob", 50)
+```
+
+### Constructor Pattern Object
+When using the constructor pattern object, all future instances of the object **will create its own instace of the internal functions** since it is not stored within the **prototype**. 
+```
+function Person(name, age){
+  this.name = name
+  this.age = age
+  
+  this.myFunction = function() {
+    ...code...
+  }
+}
+
+let bob = new Person("Bob", 50)
+```
+To share the same function for every Person objects, we can add functions to the **protptype** manually. 
+```
+let Person = function(name, age) {
+  this.name = name
+  this.age = age
+}
+
+Person.prototype.getAge = function() {
+  return this.age
+}
+
+let bob = new Person("Bob", 50)
+```
+
+### Create Non-Reusable Object
 Object literals are key-value pairs. Nested objects is allowed. 
 ```
 let person = {
@@ -310,16 +363,7 @@ let person = {
 }
 ```
 
-### Create Reusable Object
-```
-let Person = function(name, age) {
-  this.name = name
-  this.age = age
-}
-let bob = new Person("Bob", 50)
-```
-
-### Create Object without spesifying Keys
+### Create Non-Reusable Object without spesifying Keys
 ```
 const age = 25
 const name = "Bob"
@@ -327,6 +371,7 @@ const myObject = { age , name}
 ```
 
 ### Add item to Object
+There are two ways of adding an item to an object. 
 ```
 person.email = "BobSmith@gmail.com"
 ```
@@ -345,18 +390,26 @@ We can use **destructuring assignment**:
 const { firstName, lastName } = person
 ```
 
+### Making an object inmutable (Object.freeze)
+**Object.freeze** can be used to freeze the state of an object in JavaScript by making it immutable, i.e. you cannot change its properties. This also applies for Arrays, since an Array is an object. 
+```
+let myFreezedObject = Object.freeze(myObject)
+```
+
 
 
 # Array 
-An Array in JavaScript is an **Object** with numberic keys that correspond to a value. 
+An Array in JavaScript is an object with numberic keys that correspond to a value. 
 However, an Array has extended functionallity, compared to an Object, with functions such as Push, Splice, and Length. 
 
 <br>
 
-There are two main ways of initializing an Array: 
+There are two main ways of initializing an Array. 
+Initializing the Array as an object:
 ```
 const numbers = new Array(5,3,"Hello",2)
 ```
+Or using the bracket [] notaiton:
 ```
 const numbers2 = [5,3,"Hello",2]
 ```
@@ -383,13 +436,6 @@ Arrays that are declated as "**const**" can still be mutated using bracket notat
 ```
 const myArray = [1,2,3]
 myArray[1] = 10
-```
-**Object.freeze** can be used to freeze the state of an object in JavaScript.
-Object.freeze works on object values by making the object immutable, i.e. you cannot change its properties. 
-```
-const myArray = [1,2,3]
-let myFreezedArray = Object.freeze(myArray)
-myFreezedArray[1] = 10 // This will crash if "use strict" is enabled, else it has no effect. 
 ```
 
 ### Array.length
@@ -428,9 +474,7 @@ let myNumbers = [2, 10, 15, 26, 42]
 let myIndex = myNumbers.findIndex(myFunction) // myIndex is 3
 ```
 
-
-
-# Spread operator
+### Spread operator
 The spread operation "..." is used to convert an array of elements into several individual elements. An example is that it converts ([1,2,3]) to (1,2,3). 
 This has several use cases such as copying arrays, concatinating arrays, destructuring, and spreading the elements in an array to use them as function parameters instead of the array itself. 
 ```
@@ -440,42 +484,10 @@ const myArrayCopy = [...myArray] // This will copy myArray.
 
 
 
-# Classes
-
-### Create Class (approach 1)
-```
-class Person {
-  constructor(name, age) {
-    this.name = name
-    this.age = age
-  }
-  myFunction() {
-    ...code...
-  }
-}
-
-let bob = new Person("Bob", 50)
-```
-
-### Create Class (Constructor Patterns) (approach 2)
-```
-function Person(name, age){
-  this.name = name
-  this.age = age
-  
-  this.myFunction = function() {
-    ...code...
-  }
-}
-
-let bob = new Person("Bob", 50)
-```
-
-
-
 # JSON and JSON.stringify
 JSON is a data format that are used alot in fullstack development. 
-The format is very similar to an Object Literal, but all keys have double quotes.  
+The format is very similar to an object, but all keys have double quotes. 
+Example: 
 ```
 {
   {
@@ -488,7 +500,7 @@ The format is very similar to an Object Literal, but all keys have double quotes
   }
 }
 ```
-An Object can be converted to a JSON object with the JSON.stringify() function:
+An Object can be converted to JSON format with the JSON.stringify() function:
 ```
 const myObjects = [
   {
@@ -530,31 +542,58 @@ let myString2 = "my quote is \"I love quotes\"."
 let myString3 = 'my quote is "I love quotes".'
 ```
 
+### Null
+Null is actually defined as an object. 
 
 
 
 
 
-
-
-
-
-
-
-# OOP
 
 
 
 # DOM Selection & Manupulation
+DOM = Document Object Model. The DOM is basically the user interface. 
+**window** is the parent object of the browser view. 
+**document** is inside window.
 
+### Single element selectors:
+New way
+```
+document.querySelector(".myId")
+```
+Old way
+```
+document.getElementById("myId")
+```
 
+### Multi element selectors:
+New way
+```
+document.querySelectorAll(".item") // return a NodeList. 
+```
+Old way
+```
+document.getElementByClassName("item") // return a HTMLCollection. 
+```
+```
+document.getElementByTagName("item") // return a HTMLCollection. 
+```
 
+### Example of Event Listner
+```
+const eventType = "click" // There are several event types. 
+const btn = document.querySelector('.myBtnId')
+btn.addEventListener(eventType, function(x) {
+  const elementThatWasClicked = e.target
+  console.log('I clicked on' + elementThatWasClicked)
+})
+```
 
-
-
-
-
-
+### Example of Adding a class to a HTML item
+```
+document.querySelector('.myId').classList.add('myCSS_Class')
+```
 
 
 
