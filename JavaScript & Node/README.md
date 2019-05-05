@@ -20,13 +20,13 @@
 
 [Loops](#Loops)
 
-[If Statement / Conditionals](#If-Statement-/-Conditionals)
+[If Statement / Conditionals](#If-Statement--Conditionals)
 
 [Switch Sentence](#Switch-Sentence)
 
 [Function](#Function)
 
-[Object / Classes](#Object-/-Classes)
+[Object / Classes](#Object--Classes)
 
 [Array](#Array)
 
