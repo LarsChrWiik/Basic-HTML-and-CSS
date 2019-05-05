@@ -1,4 +1,7 @@
 
+# Install Visual Studio Code
+* https://code.visualstudio.com
+
 # Usefull Visual Studio Code Extentions
 * Bracket Pair: 
 * JavaScript ES6 code snippets
