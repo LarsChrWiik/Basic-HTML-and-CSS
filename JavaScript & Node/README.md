@@ -6,7 +6,7 @@
 
 [Browser Console](#Browser-Console)
 
-[What is ES6?](#What-is-ES6?)
+[What is ES6?](#What-is-ES6)
 
 [Variables](#Variables)
 
