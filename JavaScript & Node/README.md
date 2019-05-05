@@ -160,6 +160,7 @@ However, we can check the type of the constructor of the object to get the funct
 const myString = "42"
 const myInt = Number(myString)
 ```
+Can also use **ParseInt()** and **ParseFloat**.
 
 ### Convert Integer to String:
 ```
