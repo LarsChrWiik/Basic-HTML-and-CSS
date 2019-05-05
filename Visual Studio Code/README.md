@@ -9,3 +9,5 @@
 * Terminal
 * vscode-icons
 
+# Good to know
+* **Comment a block of code**: CMD + shift + 7
