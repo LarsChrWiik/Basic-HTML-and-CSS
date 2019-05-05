@@ -1,4 +1,39 @@
 
+# DOM Selection & Manupulation
+DOM = Document Object Model. The DOM is basically the user interface. 
+**window** is the parent object of the browser view. 
+**document** is inside window.
+
+### Single element selectors:
+Recommended way
+```
+document.querySelector(".myId")
+```
+Old way
+```
+document.getElementById("myId")
+```
+
+### Multi element selectors:
+Recommended way
+```
+document.querySelectorAll(".item") // return a NodeList. 
+```
+Old way
+```
+document.getElementByClassName("item") // return a HTMLCollection. 
+```
+```
+document.getElementByTagName("item") // return a HTMLCollection. 
+```
+
+
+
+
+
+
+
+
 # Events using document.getElementById()
 JavaScript events can be triggered from HTML code.
 There are several event type dependent on the object that is used, for example a button:
@@ -59,3 +94,22 @@ function myValidation(){
 ```
 
 
+
+
+
+
+
+### Example of Event Listner (ORDER)
+```
+const eventType = "click" // There are several event types. 
+const btn = document.querySelector('.myBtnId')
+btn.addEventListener(eventType, function(x) {
+  const elementThatWasClicked = e.target
+  console.log('I clicked on' + elementThatWasClicked)
+})
+```
+
+### Example of Adding a class to a HTML item
+```
+document.querySelector('.myId').classList.add('myCSS_Class')
+```
