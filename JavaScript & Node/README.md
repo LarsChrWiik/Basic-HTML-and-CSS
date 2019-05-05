@@ -32,7 +32,7 @@
 
 [JSON and JSON.stringify](#JSON-and-JSONstringify)
 
-[DOM Selection & Manupulation](#DOM-Selection-&-Manupulation)
+[DOM Selection & Manupulation](#DOM-Selection--Manupulation)
 
 [Map, Filter, Reduce](#Map-Filter-Reduce)
 
