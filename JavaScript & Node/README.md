@@ -534,31 +534,26 @@ const myObjectsJSON = JSON.stringify(myObjects)
 
 
 
+# Type Conversion
 
-
-# Type conversion // TODO
+### String => Integer:
 ```
-let myString = "42"
-let myInt = parseInt(myString)
-```
-
-
-
-
-
-
-
-
-# Good to know
-
-### Quotes within Stirng
-```
-let myString2 = "my quote is \"I love quotes\"."
-let myString3 = 'my quote is "I love quotes".'
+let myInt = parseInt("42")
 ```
 
-### Null
-Null is actually defined as an object. 
+### Integer => String:
+```
+const myNum = 15
+console.log(myNum.toString());
+```
+
+### String => Boolean:
+```
+const myBool = myValue === 'true'
+```
+
+
+
 
 
 
@@ -658,6 +653,26 @@ const accStart = 0
 const myReducedValue = myArray.reduce((acc, x) => acc + x, accStart)
 ```
 
+
+
+
+
+
+
+
+
+
+
+# Good to know
+
+### Quotes within Stirng
+```
+let myString2 = "my quote is \"I love quotes\"."
+let myString3 = 'my quote is "I love quotes".'
+```
+
+### Null
+Null is actually defined as an object. 
 
 
 
