@@ -1,8 +1,8 @@
 
 # DOM Selection & Manupulation
-DOM = Document Object Model. The DOM is basically the user interface. 
+**DOM** = Document Object Model. The DOM is basically the user interface. 
 
-JQuery has long been used to support the DOM, but recent updates of DOM functionality has made JQuery less relevant since several of the features that where unique with JQuery is now part of the DOM functionality. 
+**JQuery** has long been used to support the DOM, but recent updates of DOM functionality has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of the DOM functionality. 
 
 
 
