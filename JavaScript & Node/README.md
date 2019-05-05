@@ -1,24 +1,43 @@
 
 # Table of Contents  
 [JavaScript](#JavaScript)
+
 [Run JavaScript code](#Run-JavaScript-code)
+
 [Browser Console](#Browser-Console)
+
 [What is ES6?](#What-is-ES6?)
+
 [Variables](#Variables)
+
 [Use Strict](#Use-Strict)
+
 [Primitive Data Types](#Primitive-Data-Types)
+
 [Typeof](#Typeof)
+
 [Type Conversion](#Type-Conversion)
+
 [Loops](#Loops)
+
 [If Statement / Conditionals](#If-Statement-/-Conditionals)
+
 [Switch Sentence](#Switch-Sentence)
+
 [Function](#Function)
+
 [Object / Classes](#Object-/-Classes)
+
 [Array](#Array)
+
 [JSON and JSON.stringify](#JSON-and-JSON.stringify)
+
 [DOM Selection & Manupulation](#DOM-Selection-&-Manupulation)
+
 [Map, Filter, Reduce](#Map,-Filter,-Reduce)
+
 [Good to know](#Good-to-know)
+
 [TODO SORT:](#TODO-SORT:)
 
 
