@@ -433,6 +433,9 @@ class Person {
   myFunction() {
     ...code...
   }
+  static myOtherFunction() {
+    ...code...
+  }
 }
 
 let bob = new Person("Bob", 50)
