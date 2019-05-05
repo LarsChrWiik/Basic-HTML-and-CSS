@@ -158,7 +158,7 @@ However, we can check the type of the constructor of the object to get the funct
 ### Convert String to Integer:
 ```
 const myString = "42"
-const myInt = parseInt(myString)
+const myInt = Number(myString)
 ```
 
 ### Convert Integer to String:
