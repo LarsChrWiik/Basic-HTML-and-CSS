@@ -16,7 +16,9 @@
 
 
 
-# Using JavaScript with HTML
+# Run JavaScript code
+
+### JavaScript \<script> with HTML
 * There are two main ways to use JavaScript with HTML: 
     1. Put JavaScript code in a seperate ".js" file (**Recomended**).  
     2. Put javaScript inside the HTML code using \<script>. 
@@ -36,6 +38,12 @@ Example of refering to an external ".js" file.
 <header>
   <script src="main.js"><script>
 </header>
+```
+
+### Using Node.js
+A JavaScript file can be run using Node.js from the terminal by running the command:
+```
+node myJsFile.js
 ```
 
 
