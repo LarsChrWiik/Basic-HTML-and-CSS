@@ -2,6 +2,10 @@
 # DOM Selection & Manupulation
 DOM = Document Object Model. The DOM is basically the user interface. 
 
+JQuery has long been used to support the DOM, but recent updates of DOM functionality has made JQuery less relevant since several of the features that where unique with JQuery is now part of the DOM functionality. 
+
+
+
 # DOM tree
 **window** is the parent object of the browser view. 
 The window object is **this** in JavaScript. 
