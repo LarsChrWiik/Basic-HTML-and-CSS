@@ -133,7 +133,7 @@ console.log(typeof(age))
 | typeof(myUndefinedVariable) | undefined |
 | typeof(null) | object |
 
-However, we can check the type of the constructor of the object to find what of function it contains:
+However, we can check the type of the constructor of the object to get the function it contains:
 
 | Command  | Returns |
 |------|--------|
