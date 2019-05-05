@@ -2,6 +2,53 @@
 # Table of Contents  
 [JavaScript](#JavaScript)
 
+[Run JavaScript code](#RunJavaScriptcode)
+
+[Browser Console](#BrowserConsole)
+
+[What is ES6?](#WhatisES6)
+
+[Variables](#Variables)
+
+[Use Strict](#UseStrict)
+
+[Primitive Data Types](#PrimitiveDataTypes)
+
+[Typeof](#Typeof)
+
+[Type Conversion](#TypeConversion)
+
+[Loops](#Loops)
+
+[If Statement / Conditionals](#IfStatementConditionals)
+
+[Switch Sentence](#SwitchSentence)
+
+[Function](#Function)
+
+[Object / Classes](#ObjectClasses)
+
+[Array](#Array)
+
+[JSON and JSON.stringify](#JSONandJSONstringify)
+
+[DOM Selection & Manupulation](#DOMSelection&Manupulation)
+
+[Map, Filter, Reduce](#MapFilterReduce)
+
+[Good to know](#Goodtoknow)
+
+[TODO SORT:](#TODOSORT)
+
+
+Larswiik@Lars-MacBook-Pro /automatic table of content
+$ c
+
+
+Larswiik@Lars-MacBook-Pro /automatic table of content
+$ python3 main.py README.md 
+[JavaScript](#JavaScript)
+
 [Run JavaScript code](#Run-JavaScript-code)
 
 [Browser Console](#Browser-Console)
@@ -30,15 +77,15 @@
 
 [Array](#Array)
 
-[JSON and JSON.stringify](#JSON-and-JSON.stringify)
+[JSON and JSON.stringify](#JSON-and-JSONstringify)
 
 [DOM Selection & Manupulation](#DOM-Selection-&-Manupulation)
 
-[Map, Filter, Reduce](#Map,-Filter,-Reduce)
+[Map, Filter, Reduce](#Map-Filter-Reduce)
 
 [Good to know](#Good-to-know)
 
-[TODO SORT:](#TODO-SORT:)
+[TODO SORT:](#TODO-SORT)
 
 
 
