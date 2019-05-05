@@ -153,6 +153,25 @@ However, we can check the type of the constructor of the object to get the funct
 
 
 
+# Type Conversion
+
+### String => Integer:
+```
+let myInt = parseInt("42")
+```
+
+### Integer => String:
+```
+const myNum = 15
+console.log(myNum.toString());
+```
+
+### String => Boolean:
+```
+const myBool = myValue === 'true'
+```
+
+
 
 # Loops
 
@@ -542,26 +561,6 @@ const myObjects = [
 
 const myObjectsJSON = JSON.stringify(myObjects)
 // myObjectsJSON = [{"id":1,"firstName":"bob"},{"id":2,"firstName":"John"}]
-```
-
-
-
-# Type Conversion
-
-### String => Integer:
-```
-let myInt = parseInt("42")
-```
-
-### Integer => String:
-```
-const myNum = 15
-console.log(myNum.toString());
-```
-
-### String => Boolean:
-```
-const myBool = myValue === 'true'
 ```
 
 
