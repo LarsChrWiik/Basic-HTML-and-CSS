@@ -1,3 +1,3 @@
 
 # Frontend Web Dev
-Frontend Web Dev examples
+Information and examples of HTML, CSS, and JavaScript. 

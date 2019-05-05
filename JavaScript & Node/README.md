@@ -114,12 +114,31 @@ let y = undefined
 ```
 * **Symbol**: Symbols are completely unique identifiers with static properties (similar to ENUM). 
 
-<br>
 
-We can use **typeof** to get the type: 
+# Typeof
+We can use **typeof** to get the type of the input in JavaScript: 
 ```
 console.log(typeof(age))
 ```
+| Command  | Returns |
+|------|--------|
+| typeof("Bob") | string |
+| typeof(3.14) | number |
+| typeof(NaN) | number |
+| typeof(false) | boolean |
+| typeof([1,2,3,4]) | object |
+| typeof({name:'Bob', age:50}) | object |
+| typeof(new Date()) | object |
+| typeof(function () {}) | function |
+| typeof(myUndefinedVariable) | undefined |
+| typeof(null) | object |
+
+However, we can check the type of the constructor of the object to get the function it contains:
+
+| Command  | Returns |
+|------|--------|
+| typeof([1,2,3,4].constructor) | function Array() |
+
 
 
 
@@ -293,9 +312,7 @@ function myFunction5({ firstName, lastName, age}) {
 # Object / Classes
 Classes, Arrays, and Functions are all objects. 
 Essentially, everything in JavaSCript is an object except for the primitive data types. 
-JavaScript is a prototypal object oriented language, meaning that objects directly inherit from other objects. 
-
-<br>
+JavaScript is a **prototypal object oriented language**, meaning that objects directly inherit from other objects. 
 
 Functions within objects that uses the **class** keyword are automatically put in the **prototype**. 
 This ensures that all instances of the object-type shares the same instance of the function-object. 
@@ -402,8 +419,6 @@ let myFreezedObject = Object.freeze(myObject)
 An Array in JavaScript is an object with numberic keys that correspond to a value. 
 However, an Array has extended functionallity, compared to an Object, with functions such as Push, Splice, and Length. 
 
-<br>
-
 There are two main ways of initializing an Array. 
 Initializing the Array as an object:
 ```
@@ -431,7 +446,7 @@ let myNum2 = numbers.shift()
 numbers.unshift(150)
 ```
 
-### Array Mutation and Object.freeze
+### Array Mutation
 Arrays that are declated as "**const**" can still be mutated using bracket notation. 
 ```
 const myArray = [1,2,3]
@@ -519,31 +534,26 @@ const myObjectsJSON = JSON.stringify(myObjects)
 
 
 
+# Type Conversion
 
-
-# Type conversion // TODO
+### String => Integer:
 ```
-let myString = "42"
-let myInt = parseInt(myString)
-```
-
-
-
-
-
-
-
-
-# Good to know
-
-### Quotes within Stirng
-```
-let myString2 = "my quote is \"I love quotes\"."
-let myString3 = 'my quote is "I love quotes".'
+let myInt = parseInt("42")
 ```
 
-### Null
-Null is actually defined as an object. 
+### Integer => String:
+```
+const myNum = 15
+console.log(myNum.toString());
+```
+
+### String => Boolean:
+```
+const myBool = myValue === 'true'
+```
+
+
+
 
 
 
@@ -643,6 +653,26 @@ const accStart = 0
 const myReducedValue = myArray.reduce((acc, x) => acc + x, accStart)
 ```
 
+
+
+
+
+
+
+
+
+
+
+# Good to know
+
+### Quotes within Stirng
+```
+let myString2 = "my quote is \"I love quotes\"."
+let myString3 = 'my quote is "I love quotes".'
+```
+
+### Null
+Null is actually defined as an object. 
 
 
 
