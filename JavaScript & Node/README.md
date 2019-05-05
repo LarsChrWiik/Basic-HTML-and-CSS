@@ -108,7 +108,7 @@ function myFunction() {
 ```
 const name = "Mark Zuckerberg"
 ```
-* **Number**: There is no "float" of "integer" in JavaScript. 
+* **Number**: There is no "float" of "integer" in JavaScript. Number can be **NaN**, which means **Not A Number**. 
 ```
 const age = 34
 ```
