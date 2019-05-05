@@ -134,9 +134,11 @@ console.log(typeof(age))
 | typeof(null) | object |
 
 However, we can check the type of the constructor of the object to find what of function it contains:
+
 | Command  | Returns |
 |------|--------|
 | [1,2,3,4].constructor | function Array() |
+
 
 
 
