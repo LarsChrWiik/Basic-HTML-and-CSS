@@ -1,4 +1,10 @@
 
+# Table of Contents  
+[JavaScript](#JavaScript)  
+[Run JavaScript code](#Run JavaScript code) 
+
+
+
 # JavaScript
 * JavaScript is a programming language to make web pages interactive. 
 * JavaScript is highlevel, interpreted, and dynamically typed: 
