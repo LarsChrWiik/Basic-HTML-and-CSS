@@ -48,13 +48,17 @@ node myJsFile.js
 
 
 
-# Printing to browser Console
+# Browser Console
 We can print to the browser developer tool with the **console.log**, **console.error**, **console.warning** command. 
 ```
 console.log("Hello World")
 console.error("This is an error")
 console.warn("This is a warning")
 ```
+
+We can also measure time taken using **console.time()** and **console.timeEnd()**. 
+
+
 
 ### Printing Variables
 ```
