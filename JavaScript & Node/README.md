@@ -689,6 +689,13 @@ let myString2 = "my quote is \"I love quotes\"."
 let myString3 = 'my quote is "I love quotes".'
 ```
 
+## Print number of Decimals
+```
+const myNum = 3.141592
+const myDecimal = myNum.toFixed(2) // myDecimal is 3.14
+```
+
+
 ### Null
 Null is actually defined as an object. 
 
