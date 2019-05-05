@@ -293,7 +293,7 @@ function myFunction5({ firstName, lastName, age}) {
 # Object / Classes
 Classes, Arrays, and Functions are all objects. 
 Essentially, everything in JavaSCript is an object except for the primitive data types. 
-JavaScript is a prototypal object oriented language, meaning that objects directly inherit from other objects. 
+JavaScript is a **prototypal object oriented language**, meaning that objects directly inherit from other objects. 
 
 Functions within objects that uses the **class** keyword are automatically put in the **prototype**. 
 This ensures that all instances of the object-type shares the same instance of the function-object. 
