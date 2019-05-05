@@ -114,6 +114,7 @@ console.log(`my name is ${name} and I am ${age} years old`) // Must be ` nor " o
 
 
 # What is ES6?
+http://es6-features.org/#CurrencyFormatting
 * ES6 is also known as "**ECMAScript 6**", "**ECMAScript 2015**", and "**JavaScript 6**".
 * ES6 gave a lot of new functionality such as:
   * let and const
@@ -422,7 +423,7 @@ Functions within objects that uses the **class** keyword are automatically put i
 This ensures that all instances of the object-type shares the same instance of the function-object. 
 This is more efficient, compared to having the function within the object itself (like the constructor pattern), since it is then replicated for all instances of the object. 
 
-### Class Pattern Object
+### Class Pattern Object (E6)
 When using the class pattern object, all future instances of the object **will share the same instaces of the internal functions** since it is stored within the **prototype**. 
 ```
 class Person {
@@ -441,7 +442,7 @@ class Person {
 let bob = new Person("Bob", 50)
 ```
 
-### Constructor Pattern Object
+### Constructor Pattern Object (E5)
 When using the constructor pattern object, all future instances of the object **will create its own instace of the internal functions** since it is not stored within the **prototype**. 
 ```
 function Person(name, age){
@@ -487,22 +488,6 @@ let person = {
 }
 ```
 
-### Create Non-Reusable Object without spesifying Keys
-```
-const age = 25
-const name = "Bob"
-const myObject = { age , name}
-```
-
-### Add item to Object
-There are two ways of adding an item to an object. 
-```
-person.email = "BobSmith@gmail.com"
-```
-```
-person['email2'] = "BobSmith@mail.com"
-```
-
 ### Object Destructuring
 Instead of getting values from objects one by one:
 ```
@@ -520,6 +505,15 @@ const { firstName, lastName } = person
 let myFreezedObject = Object.freeze(myObject)
 ```
 
+### Class Object Inheritance
+```
+class Customer extends Person {
+  constructor(name, age, customerID) {
+    super(name, age)
+    this.customerID = customerID
+  }
+}
+```
 
 
 # Array
