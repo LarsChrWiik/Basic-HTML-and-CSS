@@ -474,14 +474,16 @@ const numbers2 = [5,3,"Hello",2]
 | pop | remove last |
 | shift | remove first |
 | unshift | add to front |
+| splice | cut items from given possitions |
 
 ```
-const numbers = [5,3,"Hello"]
+const myArray = [5,3,"Hello"]
 
 numbers.push(100)
-let myNum = numbers.pop()
-let myNum2 = numbers.shift()
+let myNum = myArray.pop()
+let myNum2 = myArray.shift()
 numbers.unshift(150)
+let myArraySubset = myArray.splice(1,2) // takes all elements from position 1 to and including possition 2. 
 ```
 
 ### Array Mutation
