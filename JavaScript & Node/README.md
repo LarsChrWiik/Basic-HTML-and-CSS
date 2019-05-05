@@ -20,7 +20,7 @@
 
 [Loops](#Loops)
 
-[If Statement / Conditionals](#If-Statement--Conditionals)
+[If Statement / Conditionals](#If-Statement-/-Conditionals)
 
 [Switch Sentence](#Switch-Sentence)
 
