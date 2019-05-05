@@ -1,9 +1,9 @@
 
 # Table of Contents  
-[JavaScript](#JavaScript)
-[Run JavaScript Code](#Run-JavaScript-Code)
+1. [JavaScript](#JavaScript)
+2. [Run JavaScript Code](#Run-JavaScript-Code)
 
-[Browser Console](#Browser-Console)
+3. [Browser Console](#Browser-Console)
 [What is ES6?](#What-is-ES6?)
 [Variables](#Variables)
 [Use Strict)](#Use-Strict)
