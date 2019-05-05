@@ -114,12 +114,24 @@ let y = undefined
 ```
 * **Symbol**: Symbols are completely unique identifiers with static properties (similar to ENUM). 
 
-<br>
 
-We can use **typeof** to get the type: 
+# Typeof
+We can use **typeof** to get the type of the input in JavaScript: 
 ```
 console.log(typeof(age))
 ```
+| Command  | Returns |
+|------|--------|
+| typeof("Bob") | string |
+| typeof(3.14) | number |
+| typeof(NaN) | number |
+| typeof(false) | boolean |
+| typeof([1,2,3,4]) | object |
+| typeof({name:'Bob', age:50}) | object |
+| typeof(new Date()) | object |
+| typeof(function () {}) | function |
+| typeof(myUndefinedVariable) | undefined |
+| typeof(null) | object |
 
 
 
