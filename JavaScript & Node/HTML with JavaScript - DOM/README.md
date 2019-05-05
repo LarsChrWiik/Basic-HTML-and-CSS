@@ -5,11 +5,9 @@
 
 
 # DOM vs JQuery ($)
-Basicly, **JQuery** should not be used anymore in new Projects unless some particular code relies on JQuery, such as Bootstrap. 
-JQuery has long been used to support the DOM, but recent updates of DOM functionality has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of the DOM functionality. 
+JQuery has long been used to support the DOM, but recent updates has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of vanilla JavaScript. 
 * **JQuery.AJAX** can be replaced with **fetch**. 
 * **jQuery animations** can now be done in the browser using **CSS Transitions** or **CSS Animations**.
-
 
 
 
