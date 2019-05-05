@@ -8,6 +8,7 @@
 JQuery has long been used to support the DOM, but recent updates has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of vanilla JavaScript. 
 * **JQuery.AJAX** can be replaced with **fetch**. 
 * **jQuery animations** can now be done in the browser using **CSS Transitions** or **CSS Animations**.
+* **JQuery.get** can be replaced by **document.querySelector**.
 
 
 
@@ -47,8 +48,19 @@ document.getElementByTagName("item") // return a HTMLCollection.
 
 
 
-
-
+# Modifying DOM Elements (Examples)
+```
+const myElement = document.querySelector(".myId")
+myElement.style.background = '#333'
+```
+```
+const myElement = document.querySelector(".myId")
+myElement.innerText = 'This is my new text'
+```
+```
+const myElement = document.querySelector(".myId")
+myElement.innerHTML = <div><button>This is a button</button></div>
+```
 
 
 
