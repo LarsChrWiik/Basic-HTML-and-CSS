@@ -379,6 +379,14 @@ function ifExists(key, array) {
 }
 ```
 
+### Function with imidiate execution (Lambda function)
+```
+(() console.log("this is a function"))()
+```
+```
+((x) => x**2)(3) // This will return 9
+```
+
 ### Function Argument Destructuring
 We can specify what elements to use from the input Object. 
 Argument Destructuring is often used with JSON calls / API calls.
