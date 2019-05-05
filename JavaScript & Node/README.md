@@ -137,7 +137,7 @@ However, we can check the type of the constructor of the object to find what of 
 
 | Command  | Returns |
 |------|--------|
-| [1,2,3,4].constructor | function Array() |
+| typeof([1,2,3,4].constructor) | function Array() |
 
 
 
