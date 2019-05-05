@@ -500,8 +500,25 @@ let myLength = myArray.length
 ```
 
 ### Array.sort()
+Array.sort sorts alphabetically by default, which means that [35,5,100,2] will be sorted [100,2,35,5] since it treats numbers as strings. 
 ```
 myArray.sort()
+```
+
+A sort function can be added to compare elements. 
+```
+function sortNumber(a,b) {
+  return a - b
+}
+
+let numArray = [35,5,100,2]
+numArray.sort(sortNumber) // numArray is [2,5,35,100]
+```
+
+This can be written with arrow notation:
+```
+let numArray = [35,5,100,2]
+numArray.sort((a,b) => a - b) // numArray is [2,5,35,100]
 ```
 
 ### Array.find() and Array.findIndex()
