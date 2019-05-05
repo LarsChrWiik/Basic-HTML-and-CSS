@@ -1,8 +1,17 @@
 
 # DOM Selection & Manupulation
 DOM = Document Object Model. The DOM is basically the user interface. 
+
+# DOM tree
 **window** is the parent object of the browser view. 
-**document** is inside window.
+The window object is **this** in JavaScript. 
+
+**document** is the entire HTML code, which is basicly the entire web page.
+*document* is inside *window*. 
+
+
+
+# Methods in the DOM
 
 ### Single element selectors:
 Recommended way
