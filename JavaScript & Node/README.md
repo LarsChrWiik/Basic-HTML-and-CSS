@@ -121,6 +121,7 @@ console.log(`my name is ${name} and I am ${age} years old`) // Must be ` nor " o
   * Default parameter values
   * Array.find()
   * Array.findIndex()
+  * The class keyword
 
 
 
@@ -168,6 +169,20 @@ let x = null
 let y = undefined
 ```
 * **Symbol**: Symbols are completely unique identifiers with static properties (similar to ENUM). 
+
+It is also possible to initialize String, Number and Boolean as objects: 
+```
+const myString = new String("Mark Zuckerberg")
+```
+```
+const myNumber = new Number(100)
+```
+```
+const myBoolean = new Boolean(true)
+```
+
+However, initializing primitive types with **new** is not recomended, since **===** compares using the data type. 
+
 
 
 # Typeof
