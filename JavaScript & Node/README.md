@@ -155,18 +155,24 @@ However, we can check the type of the constructor of the object to get the funct
 
 # Type Conversion
 
-### String => Integer:
+### Convert String to Integer:
 ```
-let myInt = parseInt("42")
+const myString = "42"
+const myInt = parseInt(myString)
 ```
 
-### Integer => String:
+### Convert Integer to String:
 ```
 const myNum = 15
-console.log(myNum.toString());
+const myNewString = myNum.toString()
+```
+Or
+```
+const myNum = 15
+const myNreString = String(myNum)
 ```
 
-### String => Boolean:
+### Convert String to Boolean:
 ```
 const myBool = myValue === 'true'
 ```
