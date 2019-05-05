@@ -572,59 +572,6 @@ const myObjectsJSON = JSON.stringify(myObjects)
 
 
 
-
-
-
-
-
-
-
-
-# DOM Selection & Manupulation
-DOM = Document Object Model. The DOM is basically the user interface. 
-**window** is the parent object of the browser view. 
-**document** is inside window.
-
-### Single element selectors:
-New way
-```
-document.querySelector(".myId")
-```
-Old way
-```
-document.getElementById("myId")
-```
-
-### Multi element selectors:
-New way
-```
-document.querySelectorAll(".item") // return a NodeList. 
-```
-Old way
-```
-document.getElementByClassName("item") // return a HTMLCollection. 
-```
-```
-document.getElementByTagName("item") // return a HTMLCollection. 
-```
-
-### Example of Event Listner
-```
-const eventType = "click" // There are several event types. 
-const btn = document.querySelector('.myBtnId')
-btn.addEventListener(eventType, function(x) {
-  const elementThatWasClicked = e.target
-  console.log('I clicked on' + elementThatWasClicked)
-})
-```
-
-### Example of Adding a class to a HTML item
-```
-document.querySelector('.myId').classList.add('myCSS_Class')
-```
-
-
-
 # Map, Filter, Reduce
 
 ### Map
