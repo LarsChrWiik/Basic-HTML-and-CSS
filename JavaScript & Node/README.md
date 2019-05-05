@@ -108,7 +108,7 @@ function myFunction() {
 ```
 const name = "Mark Zuckerberg"
 ```
-* **Number**: There is no "float" of "integer" in JavaScript. 
+* **Number**: There is no "float" of "integer" in JavaScript. Number can be **NaN**, which means **Not A Number**. 
 ```
 const age = 34
 ```
@@ -151,6 +151,32 @@ However, we can check the type of the constructor of the object to get the funct
 |------|--------|
 | typeof([1,2,3,4].constructor) | function Array() |
 
+
+
+# Type Conversion
+
+### Convert String to Integer:
+```
+const myString = "42"
+const myInt = Number(myString)
+```
+Can also use **ParseInt()** and **ParseFloat**.
+
+### Convert Integer to String:
+```
+const myNum = 15
+const myNewString = myNum.toString()
+```
+Or
+```
+const myNum = 15
+const myNreString = String(myNum)
+```
+
+### Convert String to Boolean:
+```
+const myBool = myValue === 'true'
+```
 
 
 
@@ -546,26 +572,6 @@ const myObjectsJSON = JSON.stringify(myObjects)
 
 
 
-# Type Conversion
-
-### String => Integer:
-```
-let myInt = parseInt("42")
-```
-
-### Integer => String:
-```
-const myNum = 15
-console.log(myNum.toString());
-```
-
-### String => Boolean:
-```
-const myBool = myValue === 'true'
-```
-
-
-
 
 
 
@@ -682,6 +688,13 @@ const myReducedValue = myArray.reduce((acc, x) => acc + x, accStart)
 let myString2 = "my quote is \"I love quotes\"."
 let myString3 = 'my quote is "I love quotes".'
 ```
+
+## Print number of Decimals
+```
+const myNum = 3.141592
+const myDecimal = myNum.toFixed(2) // myDecimal is 3.14
+```
+
 
 ### Null
 Null is actually defined as an object. 
