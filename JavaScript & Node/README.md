@@ -1,7 +1,22 @@
 
 # Table of Contents  
 [JavaScript](#JavaScript)  
-[Run JavaScript code](#Run-JavaScript-code) 
+[Run JavaScript Code](#Run-JavaScript-Code) 
+[Browser Console](#Browser-Console)
+[What is ES6?](#What-is-ES6?)
+[Variables](#Variables)
+[Use Strict)](#Use-Strict)
+[Primitive Data Types](#Primitive-Data-Types)
+[Loops](#Loops)
+[Type Conversion](Type-Conversion)
+[Typeof](#Typeof)
+[xxx](#XXX)
+[xxx](#XXX)
+[xxx](#XXX)
+[### Using Node.js](Using-Node.js)
+[xxx](#XXX)
+[xxx](#XXX)
+[xxx](#XXX)
 
 
 
@@ -22,7 +37,7 @@
 
 
 
-# Run JavaScript code
+# Run JavaScript Code
 
 ### JavaScript \<script> with HTML
 * There are two main ways to use JavaScript with HTML: 
