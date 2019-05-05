@@ -427,7 +427,7 @@ let myNum2 = numbers.shift()
 numbers.unshift(150)
 ```
 
-### Array Mutation and Object.freeze
+### Array Mutation
 Arrays that are declated as "**const**" can still be mutated using bracket notation. 
 ```
 const myArray = [1,2,3]
