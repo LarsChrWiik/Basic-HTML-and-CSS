@@ -400,8 +400,6 @@ let myFreezedObject = Object.freeze(myObject)
 An Array in JavaScript is an object with numberic keys that correspond to a value. 
 However, an Array has extended functionallity, compared to an Object, with functions such as Push, Splice, and Length. 
 
-<br>
-
 There are two main ways of initializing an Array. 
 Initializing the Array as an object:
 ```
