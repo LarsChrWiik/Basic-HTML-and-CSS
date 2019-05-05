@@ -295,8 +295,6 @@ Classes, Arrays, and Functions are all objects.
 Essentially, everything in JavaSCript is an object except for the primitive data types. 
 JavaScript is a prototypal object oriented language, meaning that objects directly inherit from other objects. 
 
-<br>
-
 Functions within objects that uses the **class** keyword are automatically put in the **prototype**. 
 This ensures that all instances of the object-type shares the same instance of the function-object. 
 This is more efficient, compared to having the function within the object itself (like the constructor pattern), since it is then replicated for all instances of the object. 
