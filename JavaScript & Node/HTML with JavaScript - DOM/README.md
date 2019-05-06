@@ -83,6 +83,23 @@ myElement.innerHTML = <div><button>This is a button</button></div>
 
 
 
+# Greate new Elements using JavaScript
+```
+const myLi = document.createElement('li')
+myLi.className = 'myClass'
+myLi.id = 'myId'
+myLi.setAttribute('title', 'My new Title')
+myLi.appendChild(document.createTextNode('Hello World'))
+```
+
+This HTML code is essentially created:
+
+```
+<li class='myClass' id='myId' title='My new Title'>Hello World</li>
+```
+
+
+
 # Events using document.getElementById()
 JavaScript events can be triggered from HTML code.
 There are several event type dependent on the object that is used, for example a button:
