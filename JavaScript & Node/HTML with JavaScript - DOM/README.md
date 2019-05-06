@@ -27,7 +27,10 @@ const myElem = document.querySelector(".myId").firstChild
 const myElem = document.querySelector(".myId").parentNode
 ```
 
+<br>
 <img src="images/traversing_the_DOM.png" width="500">
+<br>
+
 
 
 # Methods in the DOM
