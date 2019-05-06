@@ -27,7 +27,7 @@
 
 [Function](#Function)
 
-[Object / Classes](#Object--Classes)
+[Object / Class](#Object--Class)
 
 [Array](#Array)
 
