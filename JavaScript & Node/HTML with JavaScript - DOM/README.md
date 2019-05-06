@@ -46,6 +46,11 @@ document.getElementByClassName("myClassName") // return a HTMLCollection.
 document.getElementByTagName("myTagName") // return a HTMLCollection. 
 ```
 
+### Stacking Selectors
+```
+const myItems = document.querySelector("ul").querySelectorAll(".item")
+```
+
 
 
 # Modifying DOM Elements (Examples)
