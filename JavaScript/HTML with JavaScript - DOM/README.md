@@ -12,7 +12,7 @@ JQuery has long been used to support the DOM, but recent updates has made **JQue
 
 
 
-# DOM tree
+# DOM Tree
 **window** is the parent object of the browser view. 
 The window object is **this** in JavaScript. 
 
@@ -108,7 +108,43 @@ myElement.remove()
 
 
 
-# Events / Actions
+# EventsListener in JavaScript and HTML
+
+### Event-Listener using JavaScript
+Inside a JavaScript function, we can access any object by using **document.querySelector()**.
+
+Evenet-isteners in JavaScript requires two inputs:
+* The event type
+* A callback function
+
+**addEventListener(myEventType, myFunction)**
+
+```
+const btn = document.querySelector("myClassName").addEventListener('click', function(){
+  console.log("this event was triggered")
+})
+```
+
+The callback function can take en **event object** *e* as a parameter.
+The *e* is the event, which can be used to extract the event information. 
+```
+const btn = document.querySelector("myClassName").addEventListener('click', function(e){
+  const myId = e.target.id // target is the object that was triggered. 
+  console.log("this event was triggered by " + myId)
+})
+```
+
+We can also provide a function name instead of an anonymous callback function:
+
+```
+const btn = document.querySelector("myClassName").addEventListener('click', myOnClickFunction)
+
+function myOnClickFunction() {
+  console.log("this event was triggered")
+}
+```
+
+### EventListener using HTML
 JavaScript events can be triggered from HTML code.
 There are several event type dependent on the object that is used, for example a button:
 ```
@@ -130,18 +166,20 @@ function myFunction(x){
 }
 </script>
 ```
-Inside a JavaScript function, we can access any object by using **document.querySelector()**.
 
-```
-<button id="myBtn" onClick="myFunction(this)">Click this button</button>
+### Some Event Types
+* click = single click
+* dbclick = double click
+* mouseenter = mouse entered the object
+* mouseleave = mouse left the object
+* mousemove = mouse is moving
+* keydown = when a letter is pressed on the keyboard
+* focus = when an object becomes in focus
+* cut = when we cut something
+* paste = when we paste something
+* input = any input such as cut, paste, type, etc...
+* And many more...
 
-<script>
-function myFunction(){
-  const btn = document.querySelector("myBtn")
-  console.log(btn.value)
-}
-</script>
-```
 
 
 
