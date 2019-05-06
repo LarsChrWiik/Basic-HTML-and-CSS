@@ -1,5 +1,6 @@
 
 # Table of Contents  
+<span style="font-size:20">
 [JavaScript](#JavaScript)
 
 [Run JavaScript code](#Run-JavaScript-code)
@@ -39,7 +40,7 @@
 [Good to know](#Good-to-know)
 
 [TODO SORT:](#TODO-SORT)
-
+</span>
 
 
 # JavaScript
