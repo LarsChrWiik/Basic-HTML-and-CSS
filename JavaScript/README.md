@@ -350,7 +350,7 @@ function addTen(x) {
 addTen(5) // Returns 15
 ```
 
-### Function Expression (approach 2)
+### Function Expression / Anonymous Function (approach 2)
 ```
 let addTen = function(x) {
   return x + 10
@@ -726,17 +726,9 @@ const myDecimal = myNum.toFixed(2) // myDecimal is 3.14
 ```
 
 
-### Null
-Null is actually defined as an object. 
 
+# TODO:
+* Import vs require: 
+* Promise 
 
-
-
-# TODO SORT:
-
-Anonymous function: A function can be assigned to a variable. 
-
-Import vs require: 
-
-search for TODO
 
