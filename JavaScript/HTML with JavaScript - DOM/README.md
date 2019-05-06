@@ -4,7 +4,7 @@
 
 
 
-# DOM vs JQuery ($)
+# DOM vs JQuery '$'
 JQuery has long been used to support the DOM, but recent updates has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of vanilla JavaScript. 
 * **JQuery.AJAX** can be replaced with **fetch**. 
 * **jQuery animations** can now be done in the browser using **CSS Transitions** or **CSS Animations**.
@@ -143,6 +143,29 @@ function myOnClickFunction() {
   console.log("this event was triggered")
 }
 ```
+
+### Event bubbling vs. Evenet Deligation
+
+**Event bubbling**:
+Events in Javascript will automatically apply in the innter tag and move its way upwards. 
+An event will 'bubble' up the HTML tree. 
+
+**Event Deligation**: 
+Sometimes we want an event to be deligated downwards the HTML tree: 
+```
+document.body.addEventListener('click' myClickFunction)
+function myClickFunction(e) {
+  if (e.target.className === "my desired class") {
+    ...code...
+  }
+}
+```
+
+A better way might be to use e.target.classListContains, since the object might have several classes and the className must match all classes of the object. 
+```
+if (e.target.classList.contains("my desired class") {
+```
+
 
 ### EventListener using HTML
 JavaScript events can be triggered from HTML code.
