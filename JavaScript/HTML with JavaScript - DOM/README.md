@@ -83,7 +83,7 @@ myElement.innerHTML = <div><button>This is a button</button></div>
 
 
 
-# Greate new Elements using JavaScript
+# Create Elements using JavaScript
 ```
 const myLi = document.createElement('li')
 myLi.className = 'myClass'
@@ -100,7 +100,15 @@ This HTML code is essentially created:
 
 
 
-# Events using document.getElementById()
+# Remove Elements using JavaScript
+```
+const myElement = document.querySelector(".myId")
+myElement.remove()
+```
+
+
+
+# Events / Actions
 JavaScript events can be triggered from HTML code.
 There are several event type dependent on the object that is used, for example a button:
 ```
@@ -122,14 +130,14 @@ function myFunction(x){
 }
 </script>
 ```
-Inside a JavaScript function, we can access any object by using **document.getElementById()**.
+Inside a JavaScript function, we can access any object by using **document.querySelector()**.
 
 ```
 <button id="myBtn" onClick="myFunction(this)">Click this button</button>
 
 <script>
 function myFunction(){
-  const btn = document.getElementById("myBtn")
+  const btn = document.querySelector("myBtn")
   console.log(btn.value)
 }
 </script>
@@ -158,10 +166,6 @@ function myValidation(){
 }
 </script>
 ```
-
-
-
-
 
 
 
