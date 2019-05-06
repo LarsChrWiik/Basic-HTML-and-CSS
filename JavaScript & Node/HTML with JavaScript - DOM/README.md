@@ -71,6 +71,15 @@ myElement.innerHTML = <div><button>This is a button</button></div>
 
 
 
+# Traversing the DOM
+```
+const myElem = document.querySelector(".myId").firstChild
+```
+```
+const myElem = document.querySelector(".myId").parentNode
+```
+
+
 # Events using document.getElementById()
 JavaScript events can be triggered from HTML code.
 There are several event type dependent on the object that is used, for example a button:
