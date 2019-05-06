@@ -27,7 +27,10 @@ const myElem = document.querySelector(".myId").firstChild
 const myElem = document.querySelector(".myId").parentNode
 ```
 
-<img src="images/traversing_the_DOM.png" width="300">
+<br>
+<img src="images/traversing_the_DOM.png" width="500">
+<br>
+
 
 
 # Methods in the DOM
@@ -76,6 +79,23 @@ myElement.innerText = 'This is my new text'
 ```
 const myElement = document.querySelector(".myId")
 myElement.innerHTML = <div><button>This is a button</button></div>
+```
+
+
+
+# Greate new Elements using JavaScript
+```
+const myLi = document.createElement('li')
+myLi.className = 'myClass'
+myLi.id = 'myId'
+myLi.setAttribute('title', 'My new Title')
+myLi.appendChild(document.createTextNode('Hello World'))
+```
+
+This HTML code is essentially created:
+
+```
+<li class='myClass' id='myId' title='My new Title'>Hello World</li>
 ```
 
 
