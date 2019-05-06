@@ -415,7 +415,7 @@ function myFunction5({ firstName, lastName, age}) {
 
 
 
-# Object / Classes
+# Object / Class
 Classes, Arrays, and Functions are all objects. 
 Essentially, everything in JavaSCript is an object except for the primitive data types. 
 JavaScript is a **prototypal object oriented language**, meaning that objects directly inherit from other objects. 
