@@ -1,7 +1,7 @@
 
 # Table of Contents  
   
-<h2>[JavaScript](#JavaScript)</h2>
+[JavaScript](#JavaScript)
 
 [Run JavaScript code](#Run-JavaScript-code)
 
