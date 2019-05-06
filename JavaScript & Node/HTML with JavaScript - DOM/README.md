@@ -35,15 +35,17 @@ document.getElementById("myId")
 
 ### Multi element selectors:
 Recommended way
+
+This can be used for both classes and tags. 
 ```
 document.querySelectorAll(".item") // return a NodeList. 
 ```
 Old way
 ```
-document.getElementByClassName("myClassName") // return a HTMLCollection. 
+document.getElementByClassName("myClassName")
 ```
 ```
-document.getElementByTagName("myTagName") // return a HTMLCollection. 
+document.getElementByTagName("myTagName")
 ```
 
 ### Stacking Selectors
