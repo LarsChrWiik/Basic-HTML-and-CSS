@@ -19,6 +19,15 @@ The window object is **this** in JavaScript.
 **document** is the entire HTML code, which is basicly the entire web page.
 *document* is inside *window*. 
 
+### Traversing the DOM
+```
+const myElem = document.querySelector(".myId").firstChild
+```
+```
+const myElem = document.querySelector(".myId").parentNode
+```
+
+<img src="images/traversing_the_DOM.png" width="300">
 
 
 # Methods in the DOM
@@ -69,15 +78,6 @@ const myElement = document.querySelector(".myId")
 myElement.innerHTML = <div><button>This is a button</button></div>
 ```
 
-
-
-# Traversing the DOM
-```
-const myElem = document.querySelector(".myId").firstChild
-```
-```
-const myElem = document.querySelector(".myId").parentNode
-```
 
 
 # Events using document.getElementById()
