@@ -40,10 +40,10 @@ document.querySelectorAll(".item") // return a NodeList.
 ```
 Old way
 ```
-document.getElementByClassName("item") // return a HTMLCollection. 
+document.getElementByClassName("myClassName") // return a HTMLCollection. 
 ```
 ```
-document.getElementByTagName("item") // return a HTMLCollection. 
+document.getElementByTagName("myTagName") // return a HTMLCollection. 
 ```
 
 
