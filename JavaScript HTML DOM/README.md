@@ -1,14 +1,13 @@
 
 # DOM Selection & Manupulation
-**DOM** = Document Object Model. The DOM is basically the user interface. 
+**DOM** = Document Object Model. 
+The DOM is basically the user interface. 
+JavaScript can use the HTML DOM to access and change all the elements of an HTML document.
 
 
 
 # DOM vs JQuery '$'
-JQuery has long been used to support the DOM, but recent updates has made **JQuery less relevant** since several of the features that where unique with JQuery is now part of vanilla JavaScript. 
-* **JQuery.AJAX** can be replaced with **fetch**. 
-* **jQuery animations** can now be done in the browser using **CSS Transitions** or **CSS Animations**.
-* **JQuery.get** can be replaced by **document.querySelector**.
+JQuery has long been used to support DOM manipulation, but recent updates has made **JQuery less relevant** since several of the features that where unique in JQuery is now part of vanilla JavaScript. 
 
 
 
