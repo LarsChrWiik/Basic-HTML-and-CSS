@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-
-    <div class='myContainer'>
+    <div style="width:150vh; margin:auto;">
         <h1>COLORS</h1>
         <div class="red white-text">Div with color class</div>
         <div class="blue white-text">Div with color class</div>
@@ -38,16 +37,158 @@
             <button class="btn-floating "><i class="material-icons">add</i></button>
         </div>
 
+        <!-- Button in the bottom right corner -->
         <div class="fixed-action-btn">
             <a href="#" class="btn-floating red btn-large"><i class="large material-icons">mode_edit</i></a>
             <ul>
-                <li><a href="#" class="btn-floating red btn-large"><i class="material-icons">publish</i></a></li>
-                <li><a href="#" class="btn-floating red btn-large"><i class="material-icons">attach_file</i></a></li>
+                <li><a href="#" class="btn-floating red btn-large"><i class="large material-icons">publish</i></a></li>
+                <li><a href="#" class="btn-floating red btn-large"><i class="large material-icons">attach_file</i></a></li>
             </ul>
         </div>
+
+        <!-- Flat button -->
+        <a href="#" class="waves-effect waves-teal btn-flat">Flat button</a>
         
+        <!-- Alightment classes -->
+        <div>
+            <h4 class="right-align">Aligned text right</h4>
+        </div>
+
+        <!-- Float classes -->
+        <div><h4 class="left">float text left</h4></div>
+        <div><h4 class="right">float text right</h4></div>
+        <div class="clearfix"></div>
+
+        <!-- Hide dependent on size -->
+        <div class="hide-on-small-only"><h3>Hidden text on small devices</h3></div>
+
+        <!-- Truncate text -->
+        <div class="truncate"><h1>This is text that will be truncated. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia iste itaque animi praesentium quisquam optio atque velit impedit, 
+            nesciunt aliquam.
+        </h1></div>
+
+        <!-- Hover effect -->
+        <button class="btn hoverable">Hoverable button</button>
+
+        <br><br>
+
+        <!-- Shadow -->
+        <div class="z-depth-1">Div with shadow</div>
+
+        <br><br>
+
+        <!-- FLow text -->
+        <!-- Flow text respond based on screen size -->
+        <div class="flow-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptates veritatis iusto iure aliquid similique, 
+            aspernatur in voluptatem placeat facere officiis blanditiis explicabo vero unde 
+            dolorem ad dolorum quae praesentium quo! 
+            Eaque, fugiat consequuntur exercitationem corporis quod delectus 
+            eligendi quaerat neque tenetur aspernatur praesentium dolorum? 
+            Numquam repudiandae illo porro modi itaque.
+        </div>
+
+        <!-- Responsive Image -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Shaqi_jrvej.jpg" class="responsive-img">
+        
+        <!-- Nativation -->
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <br><br>
+
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="" class="center brand-logo">Logo</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons">publish</i></a></li>
+                    <li><a href="#"><i class="material-icons">camera_alt</i></a></li>
+                    <li><a href="#"><i class="material-icons">call_end</i></a></li>
+                    <li><a class="btn yellow black-text waves-effect">Button!</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <br><br>
+
+        <nav>
+            <div class="nav-wrapper red">
+                <div class="input-field">
+                    <input type="search">
+                    <label class="label-icon"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </div>
+        </nav>
+
+        <br><br>
+
+        <!-- Collections -->
+
+        <ul class="collection">
+            <li class="collection-item">Item 1</li>
+            <li class="collection-item">Item 2</li>
+            <a href="" class="collection-item">Item 3</li>
+        </ul>
+
+        <!-- Cards -->
+
+        <div class="card blue-grey">
+            <div class="card-content white-text">
+                <span class="card-title white-text">This is a title</span>
+                <a class="btn-floating halfway-fab red waves-effect waves-light">
+                    <i class="material-icons">add</i>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quidem dolores sed veniam sequi! Nemo, sequi quod? 
+                    Maiores molestiae officia incidunt molestias voluptate, 
+                    dicta, quis, dolor laudantium unde reprehenderit adipisci exercitationem 
+                    amet optio doloribus nobis! Omnis eligendi, magni facilis, 
+                    tempore non tenetur itaque illo natus, quam excepturi 
+                    necessitatibus delectus sint enim.
+                </p>
+            </div>
+            <div class="card-action">
+                <a>Link 1</a>
+                <a>Link 2</a>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Forms -->
+
+        <form>
+            <div class="input-field">
+                <input type="text" id="name">
+                <label class="active" for="name">Name</label>
+            </div>
+            <div class="input-field">
+                <input type="email" id="email" class="validate">
+                <label class="active" for="name">Email</label>
+            </div>
+        </form>
 
     </div>
+
+
+
+
+
+    <!-- Make some space at the bottom -->
+    <div style="height:500px"></div>
 
     <!-- JQuery -->
     <script
@@ -55,9 +196,10 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous">
     </script>
-
+    
     <!-- Materialize -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 </body>
 </html>
 
