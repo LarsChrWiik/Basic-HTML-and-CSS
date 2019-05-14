@@ -3,7 +3,7 @@
 LocalStorage and SessionStorage are ways to store information within the browser. 
 
 Variables stored in LocalStorage are stored locally in the browser, even after closing the browser and re-opening it. 
-Variables stored in SessionStorage will be remed when the browser is closed or after the session has times out. 
+Variables stored in SessionStorage will be removed when the browser is closed or after the session has times out. 
 
 ### Store and Get Single Values
 
