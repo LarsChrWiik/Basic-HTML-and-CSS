@@ -21,8 +21,8 @@ Some features with Materialize:
 
 # Materialize and Sass
 There are two versions of Materialize:
-* Materialize: Standard version. 
-* Sass: contains the sourse SCSS files. A Sass compiler is required to use Sass. 
+* **Materialize**: Standard version. 
+* **Sass**: contains the sourse SCSS files. A Sass compiler is required to use Sass. 
 
 
 
