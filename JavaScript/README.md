@@ -730,5 +730,6 @@ const myDecimal = myNum.toFixed(2) // myDecimal is 3.14
 # TODO:
 * Import vs require: 
 * Promise 
+* Fetch
 
 
