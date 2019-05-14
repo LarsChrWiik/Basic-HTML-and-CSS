@@ -34,7 +34,7 @@ We can enable Materialize in several ways:
 npm install materialize-css@next
 ```
 
-* Use Materialize CSN (Content delivery network) by linking through the network. 
+* Use Materialize CSN (Content delivery network) by linking through the network. (Link should be in the **header**, while scrip should be in the **body**)
 ```
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
