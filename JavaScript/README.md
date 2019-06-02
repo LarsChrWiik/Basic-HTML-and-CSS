@@ -67,7 +67,7 @@
     1. Put JavaScript code in a seperate ".js" file (**Recomended**).  
     2. Put javaScript inside the HTML code using \<script>. 
 
-Example using "<Script>":
+Example using "\<Script>":
 ```
 <body>
   <script>
@@ -703,6 +703,59 @@ const myReducedValue = myArray.reduce((acc, x) => acc + x, accStart)
 
 
 
+# Module system (Import and export modules)
+The main way to import and export JavaScript files in Node.js is by using the **require** statement and the **modules.export** statement. 
+
+Another way of sharing modules were introduced in ES6 with the satements **import** and **export** / **export defaults**. However, the traditional *require* statement is still prefered. 
+
+
+## Require / Modules.export (Standard)
+```
+// Define function in another file (otherJsFile.js)
+exports.addOne = function (x) {
+  return x + 1
+}
+```
+```
+// Import the function using require. 
+const functionsFromFile = require('./otherJsFile.js');
+const myVal = functionsFromFile.addOne(10) // myVal is 11. 
+```
+
+## Import (Added in ES6)
+This is in experimentation stages.
+
+```
+// Define function in another file (otherJsFile.mjs)
+function addOne(x) {
+    return x + 1
+}
+
+export { addOne }
+```
+
+```
+// Import the function using import from ES6. 
+import { addOne } from "./otherJsFile.mjs"
+const myVal = addOne(10) // myVal is 11
+```
+
+
+
+## Import JQuery in HTML vs Modern Node
+Old way of importing JQuery the traditional way:
+```
+<script type="text/javascript" src="jQuery.js"></script>
+```
+
+Modern way of importing JQuery:
+```
+import jQuery from “jQuery”;
+```
+
+*npm update* can be used to update the modules when using *import*. This is much better than updating the html code maually. 
+
+
 
 
 
@@ -725,10 +778,23 @@ const myNum = 3.141592
 const myDecimal = myNum.toFixed(2) // myDecimal is 3.14
 ```
 
+## Not possible to set parameter types
+It is not possible to set parameter types in JavaScript since it is not a statically types language. 
+
+## .MJS files
+*.mjs* is an extension name for EcmaScript modules. It can be used for example to use the ES6 import functionallity. 
+
+
+
 
 
 # TODO:
 * Import vs require: 
 * Promise 
 
-
+* Define
+```
+define('myJsFile.js', function () {
+  return "This is what is returned!"
+})
+```
