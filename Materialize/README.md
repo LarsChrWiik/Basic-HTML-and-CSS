@@ -21,8 +21,8 @@ Some features with Materialize:
 
 # Materialize and Sass
 There are two versions of Materialize:
-* Materialize: Standard version. 
-* Sass: contains the sourse SCSS files. A Sass compiler is required to use Sass. 
+* **Materialize**: Standard version. 
+* **Sass**: contains the sourse SCSS files. A Sass compiler is required to use Sass. 
 
 
 
@@ -34,7 +34,7 @@ We can enable Materialize in several ways:
 npm install materialize-css@next
 ```
 
-* Use Materialize CSN (Content delivery network) by linking through the network. 
+* Use Materialize CSN (Content delivery network) by linking through the network. (Link should be in the **header**, while scrip should be in the **body**)
 ```
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">

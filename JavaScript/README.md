@@ -791,6 +791,7 @@ It is not possible to set parameter types in JavaScript since it is not a static
 # TODO:
 * Import vs require: 
 * Promise 
+* Fetch
 
 * Define
 ```
