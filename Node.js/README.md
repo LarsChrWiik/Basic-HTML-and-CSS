@@ -21,7 +21,7 @@ node --experimental-modules myFile.mjs
 
 **V8** is the Javascript engine that is run in Node. V8 runs on Windows 7+, macOS 10.12+, some versions of Linux can run standalone or be into any C++ application. 
 
-**Babel** . is a JavaScript compiler that tranform newer versions of JavaScript syntax (ES2015 (ES6)) into ES5 JavaScript. Babel comes as a node package and cal be installed with NPM:
+**Babel** is a JavaScript compiler that tranform newer versions of JavaScript syntax (ES2015 (ES6)) into ES5 JavaScript. Babel comes as a node package and cal be installed with NPM:
 ```
 npm install babel-cli
 ```
