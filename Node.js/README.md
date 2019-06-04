@@ -7,7 +7,7 @@
 
 
 # ES6 in Node, V8, Babel
-ES6 syntax is not nativly supported in Node. 
+Some of the ES6 syntax is not nativly supported in Node. 
 However, it is possible to run ES6 code in Node by saving the file as .mjs and using the *--experimental-modules* parameter in the command line. 
 ```
 node --experimental-modules myFile.mjs
