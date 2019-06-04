@@ -757,10 +757,91 @@ import jQuery from “jQuery”;
 
 
 
+# Fetch and Promise
+Fetch and promise in JavaScript are used to handle **asynchronous** calls. 
 
+## Fetch
+Fetch is function that inputs a URL and fetch the and converts it into a promise. 
+```
+const myURL = "https://api.github.com/users/LarsChrWiik"
+let myPromise = fetch(myURL)
+```
 
+## Fetch vs jQuery.ajax()
+* fetch does not reject HTTP error status if it is 404 or 500, but rather sets "*ok*" status to *false* and will only reject if there is a network error. 
+* fetch wont send of recieve cookies by default. If the site relies on authentication sing sessions, then the requests will be unauthenticated. 
 
+## Promise
+A promise contains a function with two parameters (**resolve**, **reject**).
+*resolve* and *reject* are actually callback functions.
 
+A promise can be in different states:
+* **pending**: waiting to get data. 
+* **fullfilled**: successfully resolved. 
+* **rejected**: some error happend. 
+
+A promise uses together with **then** and **catch** statements.
+* then: receives an executable function when the promise has been *fullfilled*. 
+* catch: receives an executable function when the promise is *rejected*. 
+
+Standard promise syntax:
+```
+let myPromise = new Promise(function(resolve, reject) {
+  // do something asynchronous that eventually calls either:
+  //    resolve(someValue); // fulfilled
+  // or
+  //    reject("failure reason message"); // rejected
+})
+```
+
+Shot promise syntax: 
+```
+let promise1 = new Promise( (resolve, reject) => { ... } );
+```
+
+Promise with *then* and *catch*:
+```
+let myPromise = fetch(myURL)
+myPromise.then(mySuccessFunction)
+myPromise.catch(myErrorFunction)
+
+function mySuccessFunction(data) {
+  console.log("It worked!")
+}
+
+function myErrorFunction(error) {
+  console.log("It did not work!")
+}
+```
+
+Promise with *then* and *catch* (anonymous function). 
+```
+fetch(myURL)
+  .then(function(data) {
+    return console.log("It worked!")
+  })
+  .catch(function(error) {
+    return console.log("It did not work!")
+  })
+```
+
+Promise with *then* and *catch* (arrow function). 
+```
+fetch(myURL)
+  .then((data) => {
+    return console.log("It worked!")
+  })
+  .catch((error) => {
+    return console.log("It did not work!")
+  })
+```
+
+The curly braces can be removed when using a single line statement 
+```
+fetch(myURL)
+  .then((data) => console.log("It worked!"))
+  .catch((error) => console.log("It did not work!"))
+```
 
 
 
@@ -793,9 +874,3 @@ It is not possible to set parameter types in JavaScript since it is not a static
 * Promise 
 * Fetch
 
-* Define
-```
-define('myJsFile.js', function () {
-  return "This is what is returned!"
-})
-```
