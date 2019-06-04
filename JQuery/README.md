@@ -1,6 +1,6 @@
 
 # JQuery (less relevant)
-JQuery is **less relevant** now than it has been in the past since several of the features that where unique in JQuery is now part of vanilla JavaScript. For example:
+JQuery is **less relevant** today since several of the features that where unique in JQuery is now part of vanilla JavaScript. For example:
 * **JQuery.AJAX** can be replaced with **fetch**. 
 * **JQuery.get** can be replaced by **document.querySelector**.
 
@@ -47,7 +47,7 @@ Instead of donwloading JQuery, we can link to it through the internet using CDN 
 
 
 # JQuery Syntax
-The ***$*** symbol refers to ***JQuery.***.
+The ***$*** symbol refers to "***JQuery.***".
 
 JQuery commands is built in the following structure:
 
@@ -91,7 +91,7 @@ $("p.myclass")
 
 
 
-# jQuery Events
+<!-- # jQuery Events -->
 
 
 
