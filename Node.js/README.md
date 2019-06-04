@@ -6,7 +6,9 @@
 
 
 
-# ES6 in Node, V8, Babel
+# V8 and ES6
+**V8** is the Javascript engine that is run in Node. V8 runs on Windows 7+, macOS 10.12+, some versions of Linux can run standalone or be into any C++ application. 
+
 About **99%** of ES6 syntax is now supported in the lastest version of Node.
 Each ES6 feature is in a certain state: **shipped**, **staged**, or **in progress**. 
 
@@ -19,9 +21,10 @@ To allow this, we can run Node in experimental mode:
 node --experimental-modules myFile.mjs
 ```
 
-**V8** is the Javascript engine that is run in Node. V8 runs on Windows 7+, macOS 10.12+, some versions of Linux can run standalone or be into any C++ application. 
 
-**Babel** is a JavaScript compiler that tranform newer versions of JavaScript syntax (ES2015 (ES6)) into ES5 JavaScript. Babel comes as a node package and cal be installed with NPM:
+
+# Babel
+Babel is a JavaScript compiler that tranform newer versions of JavaScript syntax (ES2015 (ES6)) into ES5 JavaScript. Babel comes as a node package and cal be installed with NPM:
 ```
 npm install babel-cli
 ```
@@ -29,6 +32,7 @@ Babel can then be used to run JavaScript files containing ES6 syntax.
 ```
 babel script.js
 ```
+
 
 
 # NPM
