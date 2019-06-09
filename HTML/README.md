@@ -7,6 +7,12 @@
 # Developer Browser Tools
 * Open browser developer tools with (CMD + ALT + I) in chrome. Or just right-click --> inspect. 
 
+<br>
+<img src="images/Developer_tools.png" width="500">
+<br>
+
+
+
 # HTML Struture
 ```
 <!DOCKTYPE html> #This tells the webpage what type of html to run. (html means HTML5). 

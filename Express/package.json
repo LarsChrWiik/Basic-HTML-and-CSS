@@ -1,0 +1,11 @@
+{
+  "name": "larsTestJS",
+  "description": "This is a custom description of the app",
+  "main": "index.js",
+  "scripts": {
+    "lars123": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
