@@ -116,7 +116,7 @@ console.log(`my name is ${name} and I am ${age} years old`) // Must be ` nor " o
 
 # What is ES6?
 http://es6-features.org/#CurrencyFormatting
-* ES6 is also known as "**ECMAScript 6**", "**ECMAScript 2015**", and "**JavaScript 6**".
+* **ES6** is also known as "**ECMAScript 6**", "**ECMAScript 2015**", and "**JavaScript 6**".
 * ES6 gave a lot of new functionality such as:
   * let and const
   * Exponentiation operator "\*\*" (same as the "pow" function) 
@@ -258,9 +258,9 @@ for (let v of myArray) {
 ```
 
 ### Foreach Loop (approach 2)
-**i** is the index in myArray. The value can be accessed with myArray[key]. 
+**i** is the index in myArray. The value can be accessed with myArray[i]. 
 ```
-for (let i in myObject) {
+for (let i in myArray) {
   ...code... 
 }
 ```
@@ -268,7 +268,7 @@ for (let i in myObject) {
 ### Foreach Loop (approach 3)
 This approach is similar to enumerate in Pyhton. 
 ```
-for (let [key, value] of myObject.entries()) {
+for (let [key, value] of myArray.entries()) {
   ...code...
 }
 ```
